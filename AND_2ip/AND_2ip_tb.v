@@ -4,7 +4,9 @@ module AND_2ip_tb;
   
   AND_2ip and1(.c(c),.a(a),.b(b));
   initial begin
-    #2 a=0; b=0;
+    $dumpfile("AND_2ip.vcd");
+    $dumpvars(0,AND_2ip_tb);
+    a=0; b=0;
     
     $monitor("At time %g: a=%b, b=%b, c=%b", $time, a, b, c);
     
