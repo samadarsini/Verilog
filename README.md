@@ -9,7 +9,7 @@ Each folder contains:
 - The output result
 
 ## Tools Used
-- **Simulation:** 
+- **Simulation:** EDA Playground
 
 ## Topics Covered
 - Combinational Logic (Adders, MUX, Decoder)
