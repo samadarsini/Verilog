@@ -6,7 +6,8 @@ Welcome to my Verilog HDL project repository! This repo includes a collection of
 Each folder contains:
 - The Verilog design file (`.v`)
 - The testbench file (`_tb.v`) for simulation
-- The output result
+- The output result (`output.png`)
+- The waveform (`waveform.png`)
 
 ## Tools Used
 - **Simulation:** EDA Playground
